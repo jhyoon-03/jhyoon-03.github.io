@@ -69,7 +69,7 @@ function checkControls() {
 		prevButton.classList.remove("hidden");
 	}
 	
-	if (imageNum == 3) {
+	if (imageNum == 4) {
 		nextButton.classList.add("hidden");
 	}
 	else if (nextButton.classList.contains("hidden")) {
