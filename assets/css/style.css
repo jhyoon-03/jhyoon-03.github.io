@@ -1,4 +1,12 @@
 
+/* eliminate white border around website by calling body & html tags */
+body {
+    margin: 0;
+}
+html {
+    margin: 0;
+}
+
 /* home page */
 #title {
     margin-left: 15px;
@@ -22,6 +30,8 @@
     position: relative;
     text-align: left;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .bottom-left {
@@ -88,7 +98,7 @@
 
 #background2 {
     color: white;
-    padding-top: 5%;
+    padding-top: 7.5%;
     padding-left: 22%;
     padding-right: 22%;
 }
@@ -273,7 +283,7 @@
 .container4 {
     background-color: black;
     width: 100%;
-    height: 800px;
+    height: 700px;
 }
 
 #background4 {
@@ -326,11 +336,40 @@
     text-align: right;
 }
 
+.course-name {
+    color: #45b8ff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: left;
+}
+
 .classes {
     font-family: 'Roboto';
     font-size: 15px;
     text-align: left;
 }
+
+/* prof experience */
+.container6 {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 825px;
+}
+
+#background6 {
+    color: #74E3DD;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.pic-center2 {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    filter: brightness(100%);
+}
+
 
 /* resume */
 .container5 {
